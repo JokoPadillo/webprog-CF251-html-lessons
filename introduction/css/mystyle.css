@@ -4,6 +4,7 @@ body {
 
 #Profile{
   background-color: rgb(54, 154, 121);
+  padding: 30px;
 }
 
 #HeaderPersonal{
@@ -15,5 +16,15 @@ body {
 
 #AboutMe{
   background-color: rgb(54, 154, 121);
+  padding: 20px;
 }
 
+.Table, th, td{
+  border: 2px solid white;
+  border-collapse: collapse;
+}
+
+th, td{
+  width: 50px;
+  height: 10px;
+}
