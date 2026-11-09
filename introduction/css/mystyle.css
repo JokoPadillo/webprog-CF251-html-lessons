@@ -4,27 +4,24 @@ body {
 
 #Profile{
   background-color: rgb(54, 154, 121);
+  color: white;
   padding: 30px;
 }
 
 #HeaderPersonal{
   background-color: rgb(29, 104, 79);
-  color: black;
   text-align: center;
   padding: 30px;
 }
 
 #AboutMe{
   background-color: rgb(54, 154, 121);
+  color:white;
   padding: 20px;
 }
 
-.Table, th, td{
+table, th, td{
   border: 2px solid white;
   border-collapse: collapse;
-}
-
-th, td{
-  width: 100px;
-  height: 10px;
+  padding: 3px;
 }
