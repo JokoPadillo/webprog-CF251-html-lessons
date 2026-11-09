@@ -1,8 +1,19 @@
 body {
-  background-color: rgb(70, 101, 54);
+  background-color: rgb(106, 204, 212);
 }
 
-h1 {
-  color: navy;
-  margin-left: 20px;
+#Profile{
+  background-color: rgb(54, 154, 121);
 }
+
+#HeaderPersonal{
+  background-color: rgb(29, 104, 79);
+  color: black;
+  text-align: center;
+  padding: 30px;
+}
+
+#AboutMe{
+  background-color: rgb(54, 154, 121);
+}
+
