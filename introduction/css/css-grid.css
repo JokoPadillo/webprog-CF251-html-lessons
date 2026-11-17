@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: auto auto auto;
   background-color: rgb(100, 155, 210);
+  gap: 5px;
   padding: 10px;
 }
 .container div {
@@ -11,6 +12,6 @@
   text-align: center;
 }
 
-.profile{
-  grid-column: 1 / span 2;
+.Profile{
+  grid-row: 1 / span 2;
 }
