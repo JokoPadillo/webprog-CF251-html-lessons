@@ -41,7 +41,7 @@ header {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(12, [col-start] 1fr);
+  grid-template-columns: repeat(12, minmax(0, 1fr));
   gap: 20px;
 }
 
@@ -57,12 +57,11 @@ th,td {
 
 .AboutMe{
   background-color: #2aabcc;
-  grid-column: col-start / span 3;
-  grid-row: 3;
+  grid-column: 1 / span 3;
 }
 
 .Gallery{
-    grid-column: col-start 4 / span 9;
+  grid-column: 4 / span 9;
 }
 
 /*.container div {
