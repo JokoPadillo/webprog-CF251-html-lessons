@@ -4,6 +4,7 @@
   background-color: rgb(100, 155, 210);
   gap: 5px;
   padding: 10px;
+  align-content: center;
 }
 .container div {
   background-color: #f1f1f1;
