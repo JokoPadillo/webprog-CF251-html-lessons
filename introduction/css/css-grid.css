@@ -47,6 +47,7 @@ header {
 
 table {
   border-collapse: collapse;
+  background-color: white;
 }
 
 th,td {
@@ -60,6 +61,9 @@ th,td {
   grid-row: 3;
 }
 
+  .Gallery{
+    grid-column: col-start 4 / span 9;
+  }
 
 /*.container div {
   background-color: #f1f1f1;
