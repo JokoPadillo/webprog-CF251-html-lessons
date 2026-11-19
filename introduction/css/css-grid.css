@@ -12,6 +12,7 @@ header {
 
 .navbar {
   display: flex;
+  justify-content: center;
   background-color: #333;
   margin: 5px;
 }
@@ -19,7 +20,6 @@ header {
 .navbar a {
   color: white;
   padding: 14px 20px;
-  align-items: center;
   text-decoration: none;
   text-align: center;
 }
