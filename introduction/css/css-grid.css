@@ -34,11 +34,7 @@ header {
   justify-content: center;
   padding: 30px;
   margin: 5px;
-  /*grid-template-columns: 1fr 2fr 2fr;
-  background-color: rgb(100, 155, 210);
-  gap: 5px;
-  padding: 10px;
-  align-content: center;*/
+  color: white;
 }
 
 .grid-container {
@@ -65,13 +61,15 @@ th,td {
 }
 
 .Gallery{
+  padding: 30px;
   grid-column: 4 / span 9;
+  background-color: #2aabcc;
 }
 
 .collage {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: DodgerBlue;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 10px;
 }
 
 
