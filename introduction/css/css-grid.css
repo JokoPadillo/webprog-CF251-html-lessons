@@ -68,5 +68,11 @@ th,td {
   grid-column: 4 / span 9;
 }
 
+.collage {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: DodgerBlue;
+}
+
 
 
