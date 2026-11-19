@@ -32,6 +32,7 @@ header {
 .container {
   display: flex;
   flex-wrap: wrap;
+  padding: 30px;
   margin: 5px;
   /*grid-template-columns: 1fr 2fr 2fr;
   background-color: rgb(100, 155, 210);
