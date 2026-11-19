@@ -48,6 +48,7 @@ header {
 }
 
 table {
+  width: 300px;
   border-collapse: collapse;
   background-color: white;
 }
@@ -67,11 +68,5 @@ th,td {
   grid-column: 4 / span 9;
 }
 
-/*.container div {
-  background-color: #f1f1f1;
-  border: 3px solid black;
-  padding: 10px;
-  text-align: center;
-}*/
 
 
