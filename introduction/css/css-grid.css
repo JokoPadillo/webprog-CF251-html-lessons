@@ -47,6 +47,7 @@ table {
   width: 300px;
   border-collapse: collapse;
   background-color: white;
+  color: black;
 }
 
 th,td {
