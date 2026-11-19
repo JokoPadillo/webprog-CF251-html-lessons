@@ -47,11 +47,9 @@ table {
   width: 300px;
   border-collapse: collapse;
   background-color: white;
-  color: black;
 }
 
 th,td {
-  color: black;
   border: 1px solid black;
   padding: 8px;
 }
@@ -59,8 +57,11 @@ th,td {
 .AboutMe{
   padding: 30px;
   background-color: #2aabcc;
-  color: white;
   grid-column: 1 / span 3;
+}
+
+.AboutMe h1{
+  color: white;
 }
 
 .Gallery{
