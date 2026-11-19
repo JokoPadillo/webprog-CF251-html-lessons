@@ -61,9 +61,9 @@ th,td {
   grid-row: 3;
 }
 
-  .Gallery{
+.Gallery{
     grid-column: col-start 4 / span 9;
-  }
+}
 
 /*.container div {
   background-color: #f1f1f1;
